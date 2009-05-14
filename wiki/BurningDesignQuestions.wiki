@@ -1,33 +1,31 @@
 #summary Things that need to be decided in early development.
 
-= Burning questions =
-
 I'm just putting here a list of questions that will have a big impact on how Rakontu works and that I/we have to decide early on how they will work, because they need to get into the architecture of the program. (These may be cryptic if you haven't read the architecture document.)
 
-== Multimedia ==
+=== Multimedia ===
 
 How many non-text elements should be allowed in Rakontu articles (stories, patterns, constructs, invitations, resources)? The way I have it right now is that each article has a plain-text area (of any length) and any number of binary "attachments" which are uploaded by the user from files. Is that too messy? Should it be simplified? For example should only one type be allowed at a time? Or is keeping it open better?
 
-== Inappropriateness ==
+=== Inappropriateness ===
 
 I have it right now that all annotations (comments, tags, answers, requests, nudges) can be marked as inappropriate. After a set number of these they disappear from the screen (this number can be set globally and overridden by users). The question is, should this be separate from the article system in which appropriateness is covered by nudges? Or should articles share in that system? If so, should the appropriateness category removed from nudging?
 
-== Queries ==
+=== Queries ===
 
 In the query system I am envisioning there are six types of query: free text, tags, answers, members, activities, and links. Is that too complicated? Will that really be useful, or is it overkill? (For details on this see models.py: go to Source-Browse, then click on trunk/Rakontu/models.py)
 
-== Profiles ==
+=== Profiles ===
 
 How much profile info should be in the system? I don't want to rewrite Facebook. Is a text field and image enough? Do people need to put in pictures of themselves? Do they need more fields than that? I'm thinking people can link off to other things...
 
-== Role names ==
+=== Role names ===
 
 Do the roles curator, sustainer, and liaison work? Are there better names?
 
-== Basement ==
+=== Basement ===
 
 Is the basement (where things "fall off" into not being shown) necessary? Should it be different?
 
+=== What else? ===
+
 ... more to come ... please add comments to this page or in the discussion group.
-
-
