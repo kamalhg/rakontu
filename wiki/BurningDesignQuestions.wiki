@@ -1,4 +1,4 @@
-#summary Burning questions: Things that need to be decided in early development.
+#summary Things that need to be decided in early development.
 
 = Burning questions =
 
@@ -12,4 +12,22 @@ How many non-text elements should be allowed in Rakontu articles (stories, patte
 
 I have it right now that all annotations (comments, tags, answers, requests, nudges) can be marked as inappropriate. After a set number of these they disappear from the screen (this number can be set globally and overridden by users). The question is, should this be separate from the article system in which appropriateness is covered by nudges? Or should articles share in that system? If so, should the appropriateness category removed from nudging?
 
-==  
+== Queries ==
+
+In the query system I am envisioning there are six types of query: free text, tags, answers, members, activities, and links. Is that too complicated? Will that really be useful, or is it overkill? (For details on this see models.py: go to Source-Browse, then click on trunk/Rakontu/models.py)
+
+== Profiles ==
+
+How much profile info should be in the system? I don't want to rewrite Facebook. Is a text field and image enough? Do people need to put in pictures of themselves? Do they need more fields than that? I'm thinking people can link off to other things...
+
+== Role names ==
+
+Do the roles curator, sustainer, and liaison work? Are there better names?
+
+== Basement ==
+
+Is the basement (where things "fall off" into not being shown) necessary? Should it be different?
+
+... more to come ... please add comments to this page or in the discussion group.
+
+
